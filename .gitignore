@@ -7,6 +7,5 @@ npm-debug.log
 .idea
 .vscode
 sandbox
-/dist/validator.min.js
 notes.md
 package-lock.json

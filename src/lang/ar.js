@@ -44,19 +44,19 @@ module.exports = {
   url: 'الصفة :attribute صياغتها غير صحيحة.',
   regex: 'الصفة :attribute صياغتها غير صحيحة.',
   attributes: {
-    username:'اسم المستخدم',
-    password:'كلمة المرور',
-    email:'البريد الالكتروني',
-    website:'الموقع الالكتروني',
-    firstname:'الاسم الاول',
-    lastname:'الاسم الاخير',
-    subject:'الموضوع',
-    city:'المدينة',
-    region:'المنطقة',
-    country:'الدولة',
-    street:'الشارع',
-    zipcode:'الرمز البريدي',
-    phone:'رقم الهاتف',
-    mobile:'رقم الجوال'
+    username: 'اسم المستخدم',
+    password: 'كلمة المرور',
+    email: 'البريد الالكتروني',
+    website: 'الموقع الالكتروني',
+    firstname: 'الاسم الاول',
+    lastname: 'الاسم الاخير',
+    subject: 'الموضوع',
+    city: 'المدينة',
+    region: 'المنطقة',
+    country: 'الدولة',
+    street: 'الشارع',
+    zipcode: 'الرمز البريدي',
+    phone: 'رقم الهاتف',
+    mobile: 'رقم الجوال'
   }
 };
