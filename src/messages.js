@@ -5,6 +5,7 @@ var Messages = function(lang, messages) {
   this.messages = messages;
   this.customMessages = {};
   this.attributeNames = {};
+  this.replacements = Attributes.replacements;
 };
 
 Messages.prototype = {
@@ -37,6 +38,17 @@ Messages.prototype = {
    */
   _setAttributeFormatter: function(func) {
     this.attributeFormatter = func;
+  },
+
+  /**
+   * Add or replace a replacement for given rulename
+   * 
+   * @param {string} name
+   * @param {function} func
+   * @return {void}
+   */
+  _addReplacement: function(name, func) {
+    this.replacements[name] = func;
   },
 
   /**
