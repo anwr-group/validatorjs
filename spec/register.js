@@ -92,8 +92,7 @@ describe('register a custom validation rule', function () {
       });
     validator.setAttributeNames({
       orderFrom: 'Order From',
-      orderUntil: 'Order Until',
-      before_or_equal_day: "kaljsdflkajsdflkads"
+      orderUntil: 'Order Until'
     });
 
     expect(validator.fails()).to.be.true;
